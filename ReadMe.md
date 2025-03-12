@@ -54,14 +54,14 @@ $ npm install -g yarn
 
 3. **Install dependencies**:
    ```bash
-   $ yarn install
+   $ npm install
    ```
 
-## Installation
+## Installation Yarn
 
 1. Clone the repository:
    ```bash
-   $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+   $ git clone https://github.com/karmpatel-simform/Trainee-Backend.git
    ```
 
 2. Navigate to the project directory:
