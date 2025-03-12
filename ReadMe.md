@@ -1,66 +1,101 @@
-# Project Trainee-Backend
+# Trainee-Backend
 
-A nice project with a nice description
+A simple backend project built with Node.js and Express.
 
----
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Startup Setup Steps](#startup-setup-steps)
+- [Installation](#installation)
+- [Configure the App](#configure-the-app)
+- [Running the Project](#running-the-project)
+- [Production Build](#production-build)
+
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+Before you begin, you will need **Node.js** and **Yarn** installed on your system.
 
-### Node
-- #### Node installation on Windows
+### Node.js Installation
 
-  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+- **Windows**: Download and install from the [Node.js website](https://nodejs.org/).
+- **Ubuntu**: Run the following commands:
 
-- #### Node installation on Ubuntu
+  ```bash
+  $ sudo apt install nodejs
+  $ sudo apt install npm
+  ```
 
-  You can install nodejs and npm easily with apt install, just run the following commands.
+To check if Node.js and npm are installed, run:
 
-      $ sudo apt install nodejs
-      $ sudo apt install npm
+```bash
+$ node --version
+$ npm --version
+```
 
-- #### Other Operating Systems
-  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+### Yarn Installation
 
-If the installation was successful, you should be able to run the following command.
+After installing Node.js, you also need **Yarn**. Install it globally with:
 
-    $ node --version
-    v8.11.3
+```bash
+$ npm install -g yarn
+```
 
-    $ npm --version
-    6.1.0
+## Startup Setup Steps
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+1. **Clone the repository**:
+   ```bash
+   $ git clone https://github.com/karmpatel-simform/Trainee-Backend.git
+   ```
 
-    $ npm install npm -g
+2. **Navigate into the project folder**:
+   ```bash
+   $ cd Trainee-Backend
+   ```
 
-###
-### Yarn installation
-  After installing node, this project will need yarn too, so just run the following command.
+3. **Install dependencies**:
+   ```bash
+   $ yarn install
+   ```
 
-      $ npm install -g yarn
+## Installation
 
----
+1. Clone the repository:
+   ```bash
+   $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+   ```
 
-## Install
+2. Navigate to the project directory:
+   ```bash
+   $ cd Trainee-Backend
+   ```
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+3. Install the required dependencies:
+   ```bash
+   $ yarn install
+   ```
 
-## Configure app
+## Configure the App
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+After installation, you may need to configure some settings:
 
-- A setting;
-- Another setting;
-- One more setting;
+1. Open the configuration file (`.env` or similar).
+2. Update the settings like database credentials, API keys, etc.
 
-## Running the project
+## Running the Project
 
-    $ npm run server
+To start the server:
 
-## Simple build for production
+```bash
+$ npm run server
+```
 
-    $ npm build
+This will run the backend in development mode.
+
+## Production Build
+
+To create a production-ready build:
+
+```bash
+$ npm run build
+```
+
