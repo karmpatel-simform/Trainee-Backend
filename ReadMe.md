@@ -13,7 +13,7 @@ A simple backend project built with Node.js and Express.
 
 ## Requirements
 
-Before you begin, you will need **Node.js** and **Yarn** installed on your system.
+Before you begin, you will need **Node.js 22.14.0** and **Yarn** installed on your system.
 
 ### Node.js Installation
 
