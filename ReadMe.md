@@ -89,7 +89,7 @@ To start the server:
 $ npm run server
 ```
 
-This will run the backend in development mode.
+This will run the backend in development mode on http://localhost:3000/ .
 
 ## Production Build
 
